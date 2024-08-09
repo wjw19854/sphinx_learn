@@ -6,3 +6,9 @@ repos:
     - push
   repo: https://github.com/commitizen-tools/commitizen
   rev: v3.28.0
+- repo: https://github.com/pre-commit/pre-commit-hooks
+  rev: v2.3.0
+  hooks:
+  - id: check-yaml
+  - id: end-of-file-fixer
+  - id: trailing-whitespace
